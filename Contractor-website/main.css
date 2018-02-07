@@ -1,0 +1,339 @@
+html,body,div,nav,a,table,tr,td,th,article,section{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+
+body{
+    padding:2rem;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Line{
+    display: flex;
+    width: 450px;
+    height: 1.5px;
+    background-color: yellowgreen;
+
+}
+h1{
+    font-family: 'Raleway',sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: darkred;
+    border: 1px solid grey;
+    background-color: mistyrose;
+    padding: 0.5rem;
+    margin : 1rem;
+}
+
+a:hover{
+    background-color: lightpink;
+}
+
+
+
+
+/*Image*/
+
+#Image{
+    background-image: url("../Pictures/fam.jpg");
+    width: 100%;
+    height: 600px;
+    background-position: top 30% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 4rem;
+    color: azure;
+}
+
+p{
+    color: aliceblue;
+    font-size: 2rem;
+}
+
+
+
+
+/*Article*/
+
+article{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+article h2:first-child{
+    color: black;
+    font-size: 2rem;
+    text-decoration: underline;
+
+}
+
+article h2:nth-child(n+2){
+    color: darkslategray;
+    font-size: 1.8rem;
+    font-family: 'OpenSans',sans-serif;
+}
+
+article p{
+    color: dimgray;
+    font-size: 1.2rem;
+    font-family: 'OpenSans',sans-serif;
+
+}
+
+.CenterButton{
+    display: flex;
+    justify-content: center;
+}
+
+#Info3 pre{
+    color: dimgray;
+    font-size: 1.2rem;
+    font-family: 'OpenSans',sans-serif;
+    margin-left: -4rem;
+
+}
+
+#Info3{
+    display: flex;
+    justify-content: space-around;
+}
+
+cite a{
+    text-decoration: underline;
+    color: darkblue;
+    font-style: normal;
+    background-color:transparent;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+cite>a:hover{
+    background-color: transparent;
+    color: red;
+}
+
+#Info4 h2,#Info2 h2{
+    text-decoration: none;
+}
+
+
+/*Section*/
+
+section{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-top: 2px solid yellowgreen;
+    border-bottom: 2px solid yellowgreen;
+}
+
+section h2:first-child{
+    color: black;
+    font-size: 2rem;
+    text-decoration: underline;
+
+}
+
+section h2:nth-child(n+2){
+    color: darkslategray;
+    font-size: 1.8rem;
+    font-family: 'OpenSans',sans-serif;
+
+}
+
+section p{
+    color: dimgray;
+    font-size: 1.2rem;
+    font-family: 'OpenSans',sans-serif;
+
+}
+
+#Section2{
+    border-top: none;
+}
+
+/*Table*/
+
+table{
+    border: 2.3px solid darkred;
+    border-collapse: collapse;
+    padding-right: 2rem;
+
+}
+
+td,th{
+    border: 1px darkred solid;
+    padding: 0.3rem;
+}
+
+
+th{
+    background-color:lightpink;
+}
+
+tr:nth-child(even){
+    background-color:mistyrose;
+    }
+
+#Table1{
+    margin-bottom: 3rem;
+}
+
+#Table2{
+    margin-top: 1rem;
+}
+
+/*Section3*/
+
+#Image2{
+    background-image: url("../Pictures/us_left_web_30.jpg");
+    margin-top: 3rem;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Section3{
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: 2px solid yellowgreen;
+    border-top: none;
+}
+
+#Section3 h2:nth-child(n+2){
+    color: darkslategray;
+    font-size: 1.8rem;
+    font-family: 'OpenSans',sans-serif;
+
+}
+
+#Section3 h2:first-child{
+    color: black;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+#Section3 p{
+    color: dimgray;
+    font-size: 1.2rem;
+    font-family: 'OpenSans',sans-serif;
+
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact h4{
+    color: mediumvioletred;
+    font-size: 2rem;
+    text-decoration: none;
+    margin-top: -1rem;
+
+}
+
+.Contact h4:nth-child(1){
+    margin-top: 1rem;
+}
+
+#Tel:hover{
+    color: rebeccapurple;
+    cursor: pointer;
+}
+
+
+/*Footer*/
+
+footer p{
+    color: dimgray;
+    font-size: 1.2rem;
+    font-family:'OpenSans',sans-serif;
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3rem;
+
+}
+
+
+
+#Footer1>pre{
+    font-family:'OpenSans',sans-serif;
+    padding: 1rem;
+
+}
+
+#Footer1 a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#Footer1>p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: -1rem;
+    align-items: center;
+}
+
+#Footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Footer1 a:nth-child(2){
+    margin-top: -1rem;
+}
+
+
+#Image2{
+    border-bottom: none;
+}
